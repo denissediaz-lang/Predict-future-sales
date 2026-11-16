@@ -1,0 +1,17 @@
+name: Proyecto_Future_Sales
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - ipython
+  - jupyterlab
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - scikit-learn
+  - ruff
+  - pip:
+    - python-dotenv
+    - -e .

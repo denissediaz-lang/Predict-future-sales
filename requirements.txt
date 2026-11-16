@@ -1,0 +1,22 @@
+# Entorno conda: future_sales (Python 3.11)
+# Crear: conda create -n future_sales python=3.11 && conda activate future_sales && pip install -r requirements.txt
+
+# Datos y modelado
+numpy==2.4.6
+pandas==3.1.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+seaborn==0.13.2
+statsmodels==0.15.0
+
+# Notebooks
+ipython==9.18.1
+jupyterlab==4.6.6
+notebook==7.6.5
+
+# Utilidades
+python-dotenv==1.2.4
+ruff==0.17.5
+
+# Módulo del proyecto (future_sales) en modo editable
+-e .
